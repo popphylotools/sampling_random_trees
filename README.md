@@ -5,18 +5,18 @@ This is a python 3 script designed to randomly sample gene trees, produce a spec
 Created By: Carlos Congrains and Scott Geib. Email: carloscongrains@gmail.com
 ######################################
 
-REQUIREMENTS:
+# REQUIREMENTS:
 
 We developed and tested this script using Python version 3. It requires ETE3 module (http://etetoolkit.org/download/). The following programs must be installed in the system:
 
 ASTRAL v. 5.7.7 (https://github.com/smirarab/ASTRAL)
 IQ-TREE v. 2.1.2 (http://www.iqtree.org)
 
-USAGE:
+# USAGE:
 
-python sampling_trees.py --input_dir_trees example/gene_trees/ --input_speciestree example/reference_speciestree.tree --number_groups 10 --number_trees 20 --clades_monophyly_check example/clades_for_checking_monophyly  --astralpath full_path_to_astral.5.7.7.jar --outgroup A.bistrigata --output_DIR test_group_random_20_10 --output test_random_test_20_10.out
+python sampling_trees.py --input_dir_trees example/genetrees/ --input_speciestree example/reference_speciestree.tree --number_groups 10 --number_trees 20 --clades_monophyly_check example/clades_for_checking_monophyly  --astralpath full_path_to_astral.5.7.7.jar --outgroup A.bistrigata --output_DIR test_group_random_20_10 --output test_random_test_20_10.out
 
-OUTPUT:
+# OUTPUT:
 
 The main output is a tab separated csv file. The fields are:
 
@@ -39,7 +39,7 @@ The main output is a tab separated csv file. The fields are:
 The other fields would be results of checking the monophyly of the groups provided by the user (--clades_monophyly_check).
 
 
-References
+# References
 
 Huerta-Cepas, J., Serra, F., & Bork, P. (2016). ETE 3: Reconstruction, analysis, and visualization of phylogenomic data. Molecular Biology and Evolution, 33(6), 1635–1638. https://doi.org/10.1093/molbev/msw046
 
