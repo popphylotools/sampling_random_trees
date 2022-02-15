@@ -1,0 +1,17 @@
+Atur	A.turpiniae_MG,A.turpiniae_SP
+AfraCIV	A.fraterculus_CO,A.fraterculus_EC
+AfraCIII	A.fraterculus_LOR,A.fraterculus_ANC
+AfraCVI	A.fraterculus_SP2,A.fraterculus_BA,A.fraterculus_SC
+AfraCI	A.fraterculus_ES,A.fraterculus_RJ,A.fraterculus_SP1,A.fraterculus_RS2,A.fraterculus_CUS,A.fraterculus_RS1,A.fraterculus_AR
+Aobl	A.obliqua_CO,A.obliqua_RJ,A.obliqua_PR1,A.obliqua_GO,A.obliqua_PR2
+Atur_AfraCV	A.turpiniae_MG,A.turpiniae_SP,A.fraterculus_MDD
+AfraCIII_AfraCIV	A.fraterculus_LOR,A.fraterculus_ANC,A.fraterculus_CO,A.fraterculus_EC
+Atur_AfraCV_AfraCIII_AfraCIV	A.turpiniae_MG,A.turpiniae_SP,A.fraterculus_MDD,A.fraterculus_LOR,A.fraterculus_ANC,A.fraterculus_CO,A.fraterculus_EC
+Atur_AfraCV_AfraCIII_AfraCIV_Adis	A.turpiniae_MG,A.turpiniae_SP,A.fraterculus_MDD,A.fraterculus_CO,A.fraterculus_EC,A.fraterculus_LOR,A.fraterculus_ANC,A.distincta_BR
+Atur_AfraCV_AfraCIII_AfraCIV_Adis_Alud	A.turpiniae_MG,A.turpiniae_SP,A.fraterculus_MDD,A.fraterculus_CO,A.fraterculus_EC,A.fraterculus_LOR,A.fraterculus_ANC,A.distincta_BR,A.ludens_US
+Atur_AfraCV_AfraCIII_AfraCIV_Adis_Alud_AfraCVI	A.turpiniae_MG,A.turpiniae_SP,A.fraterculus_MDD,A.fraterculus_CO,A.fraterculus_EC,A.fraterculus_LOR,A.fraterculus_ANC,A.distincta_BR,A.ludens_US,A.fraterculus_SP2,A.fraterculus_BA,A.fraterculus_SC
+Atur_AfraCV_AfraCIII_AfraCIV_Adis_Alud_AfraCVI_Asus	A.turpiniae_MG,A.turpiniae_SP,A.fraterculus_MDD,A.fraterculus_CO,A.fraterculus_EC,A.fraterculus_LOR,A.fraterculus_ANC,A.distincta_BR,A.ludens_US,A.fraterculus_SP2,A.fraterculus_BA,A.fraterculus_SC,A.suspensa_US
+Atur_AfraCV_AfraCIII_AfraCIV_Adis_Alud_AfraCVI_Asus_AfraCI	A.turpiniae_MG,A.turpiniae_SP,A.fraterculus_MDD,A.fraterculus_CO,A.fraterculus_EC,A.fraterculus_LOR,A.fraterculus_ANC,A.distincta_BR,A.ludens_US,A.fraterculus_SP2,A.fraterculus_BA,A.fraterculus_SC,A.suspensa_US,A.fraterculus_ES,A.fraterculus_RJ,A.fraterculus_SP1,A.fraterculus_RS2,A.fraterculus_CUS,A.fraterculus_RS1,A.fraterculus_AR
+Aobl_AfraCII	A.obliqua_CO,A.obliqua_RJ,A.obliqua_PR1,A.obliqua_GO,A.obliqua_PR2,A.fraterculus_MX
+Aobl_AfraCII_AfraCVII	A.obliqua_CO,A.obliqua_RJ,A.obliqua_PR1,A.obliqua_GO,A.obliqua_PR2,A.fraterculus_MX,A.fraterculus_SP3
+Atur_AfraCV_AfraCIII_AfraCIV_Adis_Alud_AfraCVI_Asus_AfraCI_Aobl_AfraCII_AfraCVII	A.turpiniae_MG,A.turpiniae_SP,A.fraterculus_MDD,A.fraterculus_CO,A.fraterculus_EC,A.fraterculus_LOR,A.fraterculus_ANC,A.distincta_BR,A.ludens_US,A.fraterculus_SP2,A.fraterculus_BA,A.fraterculus_SC,A.suspensa_US,A.fraterculus_ES,A.fraterculus_RJ,A.fraterculus_SP1,A.fraterculus_RS2,A.fraterculus_CUS,A.fraterculus_RS1,A.fraterculus_AR,A.obliqua_CO,A.obliqua_RJ,A.obliqua_PR1,A.obliqua_GO,A.obliqua_PR2,A.fraterculus_MX,A.fraterculus_SP3
