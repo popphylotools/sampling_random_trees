@@ -14,17 +14,29 @@ IQ-TREE v. 2.1.2 (http://www.iqtree.org)
 
 USAGE:
 
+python sampling_trees.py --input_dir_trees example/gene_trees/ --input_speciestree example/reference_speciestree.tree --number_groups 10 --number_trees 20 --clades_monophyly_check example/clades_for_checking_monophyly  --astralpath full_path_to_astral.5.7.7.jar --outgroup A.bistrigata --output_DIR test_group_random_20_10 --output test_random_test_20_10.out
 
+OUTPUT:
 
+The main output is a tab separated csv file. The fields are:
 
+1 groupID: file name of the subset of gene trees
+2 number_branches_gcF: Number of branches
+3 total_gCF: Sum of the gene concordance factor of each branch of the species tree inferred from a subset
+4 avg_gCF: Average of the gene concordance factor of each branch of the species tree inferred from a subset
+5 number_branches_f_gcF: Number of branches
+6 total_f_gCF: Sum of the gene concordance factor of each branch of the reference species tree (--input_speciestree)
+7 avg_f_gCF: Average of the gene concordance factor of each branch of the reference species tree (--input_speciestree)
+8 number_branches_astral: Number of branches
+9 total_PP: Sum of the local posterior probabilities of the species tree inferred from a subset
+10 avg_PP: Average of the local posterior probabilities of the species tree inferred from a subset
+11 number_branches_qs: Number of branches
+12 total_qs: Sum of the quartet supports of the species tree inferred from a subset
+13 avg_qs: Average of the quartet supports of the species tree inferred from a subset
+14 RF: Robinson-Foulds distance of the species tree of a subset and the reference species tree (--input_speciestree)
+15 max_RF: Maximum Robinson-Foulds distance of the species tree of a subset and the reference species tree (--input_speciestree)
 
-
-
-
-We performed this assessment using a custom python script (), which employed tools implemented in Environment for Tree Exploration (ETE) v. 3. (Huerta-Cepas et al., 2016)
-
-
-trees_file,str(number_nodes_gCF),str(sum_gCF),str(avg_gCF),str(number_nodes_fixed_gCF),str(number_nodes_fixed_sum_gCF),str(number_nodes_fixed_avg_gCF),str(number_nodes_quartet_s),str(sum_quartet_s),str(avg_quartet_s),str(number_nodes_bootstrap_s),str(sum_bootstrap_s),str(avg_bootstrap_s),str(rf_result[0]),str(rf_result[1])]
+The other fields would be results of checking the monophyly of the groups provided by the user (--clades_monophyly_check).
 
 
 References
